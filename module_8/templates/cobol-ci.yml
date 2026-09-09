@@ -1,0 +1,69 @@
+name: COBOL & SQLite CI/CD Pipeline
+
+#====================================================================#
+# CI/CD Workflow Template for Module 8                               #
+#                                                                    #
+# NOTE: To activate this pipeline in your GitHub repository:         #
+# 1. Create directory: .github/workflows                             #
+# 2. Copy this file into: .github/workflows/cobol-ci.yml             #
+# 3. Commit and push to your GitHub remote                           #
+#====================================================================#
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build-and-test:
+    name: Build, Lint & Test COBOL Application
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install GnuCOBOL & SQLite3 Toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            gnucobol \
+            libcob4-dev \
+            sqlite3 \
+            libsqlite3-dev \
+            build-essential \
+            gcc \
+            make
+
+      - name: Check Toolchain Versions
+        run: |
+          echo "=== Compiler Diagnostic Info ==="
+          cobc --version | head -n 2
+          gcc --version | head -n 1
+          sqlite3 --version
+
+      - name: Syntax Linting & Check
+        run: |
+          echo "Running GnuCOBOL syntax validation..."
+          make -C module_8 check
+
+      - name: Build Native Binary
+        run: |
+          echo "Compiling COBOL application with SQLite C-bridge..."
+          make -C module_8 build
+
+      - name: Run Automated Test Harness
+        run: |
+          echo "Executing automated test suite..."
+          make -C module_8 test
+
+      - name: Archive Compiled Binary Artifact
+        uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: inventory-app-linux-x64
+          path: module_8/bin/inventory_app
+          retention-days: 7
+
