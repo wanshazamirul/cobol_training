@@ -13,3 +13,18 @@
 /home/wesi/codes/cobol-training/module_5/samples/02_CSharpCallsCobol/DotNetClient/obj/Debug/net8.0/DotNetClient.genruntimeconfig.cache
 /home/wesi/codes/cobol-training/module_5/samples/02_CSharpCallsCobol/DotNetClient/obj/Debug/net8.0/ref/DotNetClient.dll
 /home/wesi/codes/cobol-training/module_5/samples/02_CSharpCallsCobol/DotNetClient/obj/Debug/net8.0/DotNetClient.sourcelink.json
+/home/trainees/Desktop/day 2/cobol-training-day2/module_5/samples/02_CSharpCallsCobol/DotNetClient/bin/Debug/net8.0/DotNetClient
+/home/trainees/Desktop/day 2/cobol-training-day2/module_5/samples/02_CSharpCallsCobol/DotNetClient/bin/Debug/net8.0/DotNetClient.deps.json
+/home/trainees/Desktop/day 2/cobol-training-day2/module_5/samples/02_CSharpCallsCobol/DotNetClient/bin/Debug/net8.0/DotNetClient.runtimeconfig.json
+/home/trainees/Desktop/day 2/cobol-training-day2/module_5/samples/02_CSharpCallsCobol/DotNetClient/bin/Debug/net8.0/DotNetClient.dll
+/home/trainees/Desktop/day 2/cobol-training-day2/module_5/samples/02_CSharpCallsCobol/DotNetClient/bin/Debug/net8.0/DotNetClient.pdb
+/home/trainees/Desktop/day 2/cobol-training-day2/module_5/samples/02_CSharpCallsCobol/DotNetClient/obj/Debug/net8.0/DotNetClient.GeneratedMSBuildEditorConfig.editorconfig
+/home/trainees/Desktop/day 2/cobol-training-day2/module_5/samples/02_CSharpCallsCobol/DotNetClient/obj/Debug/net8.0/DotNetClient.AssemblyInfoInputs.cache
+/home/trainees/Desktop/day 2/cobol-training-day2/module_5/samples/02_CSharpCallsCobol/DotNetClient/obj/Debug/net8.0/DotNetClient.AssemblyInfo.cs
+/home/trainees/Desktop/day 2/cobol-training-day2/module_5/samples/02_CSharpCallsCobol/DotNetClient/obj/Debug/net8.0/DotNetClient.csproj.CoreCompileInputs.cache
+/home/trainees/Desktop/day 2/cobol-training-day2/module_5/samples/02_CSharpCallsCobol/DotNetClient/obj/Debug/net8.0/DotNetClient.sourcelink.json
+/home/trainees/Desktop/day 2/cobol-training-day2/module_5/samples/02_CSharpCallsCobol/DotNetClient/obj/Debug/net8.0/DotNetClient.dll
+/home/trainees/Desktop/day 2/cobol-training-day2/module_5/samples/02_CSharpCallsCobol/DotNetClient/obj/Debug/net8.0/refint/DotNetClient.dll
+/home/trainees/Desktop/day 2/cobol-training-day2/module_5/samples/02_CSharpCallsCobol/DotNetClient/obj/Debug/net8.0/DotNetClient.pdb
+/home/trainees/Desktop/day 2/cobol-training-day2/module_5/samples/02_CSharpCallsCobol/DotNetClient/obj/Debug/net8.0/DotNetClient.genruntimeconfig.cache
+/home/trainees/Desktop/day 2/cobol-training-day2/module_5/samples/02_CSharpCallsCobol/DotNetClient/obj/Debug/net8.0/ref/DotNetClient.dll
